@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Traffic Signal with Timer</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<h1>Traffic Signal </h1>
+
+<div class="traffic-light-container">
+    <div class="traffic-light">
+    <div class="light red"></div>
+    <div class="light yellow"></div>
+    <div class="light green"></div>
+    </div>
+
+    <div class="timer-box">
+    <span id="timer">Ready</span>
+    </div>
+</div>
+
+<div class="controls">
+    <button onclick="startSignal()">Start</button>
+    <button onclick="stopSignal()">Stop</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
